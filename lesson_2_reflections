@@ -1,0 +1,28 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, you create an empty git repository in a given directory. You would need to do this so that you can view the different commits of certain files that are not made using git.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is an intermediate between the two; it allows you to make commits of certain files from your directory before jumping right to a commit in the repository. This allows you to make smaller changes after creating a repository (instead of forcing you to commit all of the files in your directory at once).
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use it by only saving things from the staging area one at a time and also adding commit messages to denote what change you are saving.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Some situations would include any codes that you predict you'll have multiple versions of; for example, a basic video game could be made more interesting through different themes (e.x. a winter theme), which would most likely require branches, as they would maintain the original version and keep the new versions separate.
+
+How did the diagrams help you vizualize the branch structure?
+
+They were a great aid in showing me which commits came after other commits (and for that matter, the order of commits in general)-- they also helped me see which commits were unreachable, which would've been hard to do without them. 
+
+What is the result of merging two branches together? Why do we represent it in the way we do?
+
+It combines the commits on both branches; it is represented that way because it acts as as if it were the same commit to both branches (i.e. it adds what one branch had added to the other and vice versa so that the merge commit represents a combination of both branches).
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The pro of the first would be that it would be easier to do versus the con would be that it might omit a certain change in the final merge; for manual merges, a pro would be that you could have the maximum amount of control as to what goes into the final merge, but a definite con would be the greater time it would take.
+

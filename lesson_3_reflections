@@ -15,10 +15,9 @@ use one instead of another?
 
     You might use a fork instead of a clone when working on a group project so that the person who created the original repository can see what his/her members are working on; conversely, a clone might be used for an indiviual project where cooperation/conversation between users is not needed. Lastly, a branch might be used if creating multiple versions of the same project (e.x. holiday versions of a game) so that the integrity of the original version remains intact but separate.
     
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+    It allows you to revert to that last known state/ see what the file was like at that last known state when you're offline (?)
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

@@ -6,13 +6,15 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You might want to have Git not pull automatically if the files uploaded to the remote repository aren't relevant to what you're working on on your computer (e.x. if two people are contributing to a remote repository but are working on two separate parts of a project).
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks create clones of repositories while also crediting the original owner and allowing the original repository's owner to keep track of who and how many people fork their repository (clones, however, do not allow this). A branch is slightly similar to a fork in that it allows you to build off of a commit while still keeping the original commit intact; however, branches are primarily for use in the same computer (i.e. no transfer between computer or users occurs). 
 
+    You might use a fork instead of a clone when working on a group project so that the person who created the original repository can see what his/her members are working on; conversely, a clone might be used for an indiviual project where cooperation/conversation between users is not needed. Lastly, a branch might be used if creating multiple versions of the same project (e.x. holiday versions of a game) so that the integrity of the original version remains intact but separate.
+    
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
